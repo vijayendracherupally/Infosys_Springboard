@@ -53,9 +53,9 @@
 
 <h3>Paraphrasing Models</h3>
 <ul>
-<li>ramsrigouthamg/t5_paraphraser</li>
-<li>eugenesiow/bart-paraphrase</li>
-<li>Vamsi/T5_Paraphrase_Paws</li>
+<li>t5_paraphraser</li>
+<li>bart-paraphrase</li>
+<li>T5_Paraphrase_Paws</li>
 </ul>
 
 <h3>Similarity Model</h3>
