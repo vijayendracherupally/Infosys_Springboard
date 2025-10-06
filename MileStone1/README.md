@@ -1,42 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Text Summarization & Paraphrasing Project</title>
 </head>
 <body>
 
-<h1>🧠 Text Summarization, Paraphrasing & Similarity Analysis</h1>
+<h1>Text Summarization, Paraphrasing & Similarity Analysis</h1>
 
-<p>
-<a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3.11-blue.svg" alt="Python"/></a>
-<a href="https://huggingface.co/"><img src="https://img.shields.io/badge/Hugging%20Face-Transformers-orange.svg" alt="HuggingFace"/></a>
-<a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License"/></a>
-</p>
 
-<hr>
-
-<h2>📋 Table of Contents</h2>
-<ul>
-<li><a href="#features">✨ Features</a></li>
-<li><a href="#workflow">⚙️ Workflow</a></li>
-<li><a href="#tech-stack">💻 Tech Stack</a></li>
-<li><a href="#installation">🚀 Installation</a></li>
-<li><a href="#usage">🧠 Usage</a></li>
-<li><a href="#code-structure">🗂️ Code Structure</a></li>
-<li><a href="#models-used">🤖 Models Used</a></li>
-<li><a href="#output-visualization">📊 Output & Visualization</a></li>
-<li><a href="#future-enhancements">🔮 Future Enhancements</a></li>
-<li><a href="#license">📜 License</a></li>
-</ul>
-
-<hr>
 
 <h2 id="features">✨ Features</h2>
 <ul>
 <li>✅ Summarization using <b>T5</b>, <b>BART</b>, and <b>Pegasus</b></li>
 <li>✅ Paraphrasing using <b>T5</b>, <b>BART</b>, and <b>Pegasus</b></li>
 <li>✅ Semantic similarity scoring using <b>SentenceTransformer (MiniLM)</b></li>
-<li>✅ Modular, function-based design for easy customization</li>
 <li>✅ Visualization of similarity scores using <b>bar plots</b></li>
 </ul>
 
@@ -51,66 +27,8 @@
 <li>Visualization – Plot bar charts to compare model similarity scores.</li>
 </ol>
 
-<hr>
 
-<h2 id="tech-stack">💻 Tech Stack</h2>
 
-<table>
-<tr><th>Component</th><th>Technology</th></tr>
-<tr><td>Language</td><td>Python 3</td></tr>
-<tr><td>NLP</td><td>Hugging Face Transformers</td></tr>
-<tr><td>Embeddings</td><td>Sentence-Transformers</td></tr>
-<tr><td>Visualization</td><td>Matplotlib</td></tr>
-<tr><td>Preprocessing</td><td>NLTK</td></tr>
-<tr><td>Environment</td><td>Jupyter Notebook / Google Colab / VS Code</td></tr>
-</table>
-
-<hr>
-
-<h2 id="installation">🚀 Installation</h2>
-
-<pre><code># Clone repository
-git clone https://github.com/yourusername/text-summarization-paraphrasing.git
-cd text-summarization-paraphrasing
-
-# Install dependencies
-pip install transformers sentence-transformers nltk matplotlib
-
-# Download NLTK tokenizer
-import nltk
-nltk.download('punkt')
-</code></pre>
-
-<hr>
-
-<h2 id="usage">🧠 Usage</h2>
-
-<pre><code># Place text files in the project folder:
-Sample1.txt
-Sample2.txt
-
-# Run the main script
-python main.py
-</code></pre>
-
-<p>The script will:</p>
-<ul>
-<li>Print summaries and paraphrases for each text</li>
-<li>Display similarity scores for each model</li>
-<li>Generate bar charts comparing similarity scores</li>
-</ul>
-
-<hr>
-
-<h2 id="code-structure">🗂️ Code Structure</h2>
-
-<pre><code>📂 Project Root
-├── main.py                 # Main script with functions and workflow
-├── Sample1.txt             # First input text file
-├── Sample2.txt             # Second input text file
-├── requirements.txt        # Optional dependencies list
-└── README.md               # Project documentation
-</code></pre>
 
 <h3>Function Breakdown</h3>
 <table>
@@ -150,18 +68,7 @@ python main.py
 <h2 id="output-visualization">📊 Output & Visualization</h2>
 <p>Console output shows summaries, paraphrases, and similarity scores. Bar charts visualize model similarity (0–1) for each text.</p>
 
-<hr>
 
-<h2 id="future-enhancements">🔮 Future Enhancements</h2>
-<ul>
-<li>Fine-tune models on custom dataset</li>
-<li>Add ROUGE/BLEU metrics for evaluation</li>
-<li>Support multiple text files automatically</li>
-<li>Build a web-based interface for model comparison</li>
-<li>Enable GPU acceleration for faster inference</li>
-</ul>
-
-<hr>
 
 <h2 id="license">📜 License</h2>
 <p>This project is licensed under the <b>MIT License</b> — free to use, modify, and distribute.</p>
