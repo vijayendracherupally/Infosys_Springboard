@@ -55,7 +55,7 @@
 <ul>
 <li>t5_paraphraser</li>
 <li>bart-paraphrase</li>
-<li>T5_Paraphrase_Paws</li>
+<li>Pegasus</li>
 </ul>
 
 <h3>Similarity Model</h3>
