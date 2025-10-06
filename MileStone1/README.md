@@ -8,17 +8,17 @@
 
 
 
-<h2 id="features">✨ Features</h2>
+<h2 id="features"> Features</h2>
 <ul>
-<li>✅ Summarization using <b>T5</b>, <b>BART</b>, and <b>Pegasus</b></li>
-<li>✅ Paraphrasing using <b>T5</b>, <b>BART</b>, and <b>Pegasus</b></li>
-<li>✅ Semantic similarity scoring using <b>SentenceTransformer (MiniLM)</b></li>
-<li>✅ Visualization of similarity scores using <b>bar plots</b></li>
+<li>Summarization using <b>T5</b>, <b>BART</b>, and <b>Pegasus</b></li>
+<li>Paraphrasing using <b>T5</b>, <b>BART</b>, and <b>Pegasus</b></li>
+<li>Semantic similarity scoring using <b>SentenceTransformer (MiniLM)</b></li>
+<li>Visualization of similarity scores using <b>bar plots</b></li>
 </ul>
 
 <hr>
 
-<h2 id="workflow">⚙️ Workflow</h2>
+<h2 id="workflow"> Workflow</h2>
 <ol>
 <li>Load Texts – Read two text files (<code>Sample1.txt</code> and <code>Sample2.txt</code>).</li>
 <li>Summarization – Generate summaries using three models.</li>
@@ -42,7 +42,7 @@
 
 <hr>
 
-<h2 id="models-used">🤖 Models Used</h2>
+<h2 id="models-used"> Models Used</h2>
 
 <h3>Summarization Models</h3>
 <ul>
@@ -65,12 +65,12 @@
 
 <hr>
 
-<h2 id="output-visualization">📊 Output & Visualization</h2>
+<h2 id="output-visualization"> Output & Visualization</h2>
 <p>Console output shows summaries, paraphrases, and similarity scores. Bar charts visualize model similarity (0–1) for each text.</p>
 
 
 
-<h2 id="license">📜 License</h2>
+<h2 id="license"> License</h2>
 <p>This project is licensed under the <b>MIT License</b> — free to use, modify, and distribute.</p>
 
 </body>
