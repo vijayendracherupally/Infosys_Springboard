@@ -2,11 +2,10 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>TextMorph — Milestone 2</title>
 </head>
 <body>
 
-<h1>TextMorph — Milestone 2</h1>
+<h1>Advanced Text Summarization and Paraphrasing  — Milestone 2</h1>
 <p><b>Advanced text summarization, evaluation, and interactive UIs (Colab / Jupyter friendly).</b></p>
 
 <h2>Badges</h2>
