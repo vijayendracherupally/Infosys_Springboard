@@ -3,58 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <title>TextMorph — Milestone 2</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 40px;
-      line-height: 1.6;
-      background-color: #ffffff;
-      color: #0b1b2b;
-    }
-    h1 {
-      color: #0b3d91;
-    }
-    h2 {
-      color: #0b2b66;
-      margin-top: 1.8em;
-    }
-    h3 {
-      margin-top: 1.2em;
-    }
-    code {
-      background-color: #f3f4f6;
-      padding: 2px 6px;
-      border-radius: 4px;
-      font-family: monospace;
-    }
-    pre {
-      background-color: #0f1724;
-      color: #e6edf3;
-      padding: 12px;
-      border-radius: 6px;
-      overflow-x: auto;
-      font-size: 13px;
-    }
-    ul, ol {
-      margin-left: 20px;
-    }
-    table {
-      border-collapse: collapse;
-      width: 100%;
-      margin-top: 10px;
-    }
-    table, th, td {
-      border: 1px solid #ddd;
-    }
-    th, td {
-      padding: 10px;
-      text-align: left;
-    }
-    .small {
-      font-size: 13px;
-      color: #666;
-    }
-  </style>
 </head>
 <body>
 
