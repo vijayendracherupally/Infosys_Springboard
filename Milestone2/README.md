@@ -70,20 +70,7 @@
 
 <hr>
 
-<h2>Table of Contents</h2>
-<ol>
-  <li><a href="#overview">Overview</a></li>
-  <li><a href="#requirements">Requirements</a></li>
-  <li><a href="#quickstart">Quick Start (Colab)</a></li>
-  <li><a href="#project-structure">Project Structure</a></li>
-  <li><a href="#usage">Usage & Example Commands</a></li>
-  <li><a href="#models">Models & Tokens</a></li>
-  <li><a href="#evaluation">Evaluation & Metrics</a></li>
-  <li><a href="#uis">Interactive UIs</a></li>
-  <li><a href="#troubleshooting">Troubleshooting</a></li>
-  <li><a href="#saving">Saving & Reproducibility</a></li>
-  <li><a href="#license">License & Contact</a></li>
-</ol>
+
 
 <hr>
 
@@ -203,9 +190,6 @@ with open("summaries.json", "w") as f:
 
 <h2 id="license">License & Contact</h2>
 <p>This project is licensed under the <b>MIT License</b>.</p>
-<p><b>Author:</b> Vijayendra</p>
-
-<p class="small">Last updated: October 11, 2025</p>
 
 </body>
 </html>
