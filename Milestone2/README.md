@@ -113,6 +113,9 @@ def compute_rouge(ref, hyp):
 </ul>
 
 <h2 id="uis">Interactive UIs</h2>
+<img src="Screenshot-2025-10-14-194443.png" alt="Screenshot of the UI" />
+<img src="Screenshot-2025-10-14-194539.png" alt="Screenshot of the UI" />
+<img src="Screenshot-2025-10-14-194556.png" alt="Screenshot of the UI" />
 <p>Notebook includes:</p>
 <ol>
   <li><b>All-models UI</b> — runs all loaded models</li>
