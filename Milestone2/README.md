@@ -114,8 +114,8 @@ def compute_rouge(ref, hyp):
 
 <h2 id="uis">Interactive UIs</h2>
 <img src="Images/Screenshot-2025-10-14-194443.png" alt="Screenshot of the UI" />
-<img src="Images/Screenshot-2025-10-14-194539.png" alt="Screenshot of the UI" />
-<img src="Images/Screenshot-2025-10-14-194556.png" alt="Screenshot of the UI" />
+
+
 <p>Notebook includes:</p>
 <ol>
   <li><b>All-models UI</b> — runs all loaded models</li>
@@ -124,14 +124,14 @@ def compute_rouge(ref, hyp):
 
 <pre><code>all_models_ui(models_available)
 select_models_ui(models_available)</code></pre>
-
+<img src="Images/Screenshot-2025-10-14-194539.png" alt="Screenshot of the UI" />
 <h2 id="troubleshooting">Troubleshooting</h2>
 <ul>
   <li><b>OOM:</b> Use fewer or smaller models</li>
   <li><b>Token limit:</b> Use <code>safe_trim()</code></li>
   <li><b>Gated models:</b> Accept license and add <code>HF_TOKEN</code></li>
 </ul>
-
+<img src="Images/Screenshot-2025-10-14-194556.png" alt="Screenshot of the UI" />
 <h2 id="saving">Saving & Reproducibility</h2>
 <pre><code>import json
 df.to_csv("results.csv", index=False)
